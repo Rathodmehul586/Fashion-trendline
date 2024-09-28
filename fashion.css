@@ -1,0 +1,206 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    
+    text-decoration: underline;
+
+}
+h1:hover{
+    transition: ease-in;
+    transition-duration: 0.15s;
+    transition-property: all; 
+    color: orange;
+}
+#navbar1{
+height: 55px;
+width: 100%;
+/* background-color: red; */
+display: flex;
+justify-content: space-between;
+padding: 0px 30px;
+background-color: #ededed;
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: black;
+    margin-left:4px;
+
+}
+.nav-part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 20px;
+    
+}
+
+.nav-part2 span{
+    color: grey;
+    margin-left: 15px;
+}
+
+#navbar2{
+    height: 55px;
+    width: 100%;
+    /* background-color: rgb(108, 45, 45); */
+    display: flex;
+    gap:40px;
+    align-items: center;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 300;
+ background-color: #ededed;
+
+ }
+
+ .content{
+    height: calc(100% - 110px) ;
+    width: 100%;
+    /* background-color: aquamarine; */
+ }
+
+.text-content{
+    display: flex;
+    height: 35%;
+    width: 100%;
+    /* background-color: burlywood; */
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: nowrap;
+   overflow-x:auto;
+   
+}
+.text-content::-webkit-scrollbar{
+    height: 7px;
+}
+.text-content::-webkit-scrollbar-thumb{
+    background-color: orange;
+}
+.text-content h1{
+    font-size: 100px;
+} 
+
+.elem {
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.d01{
+    position: absolute;
+    top:11%;
+    left:0%;
+    font-size: large;
+    font-weight: 900;
+    font-size: larger;
+    
+}
+.d01 span{
+    padding-left: 105px;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.image-content{
+    height: 65%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-shrink:0;
+   overflow-x:auto;
+
+
+}
+.image-content::-webkit-scrollbar{
+    display: none;
+}
+
+.image1{
+    height: 100%;
+    width: 100%;
+    background-image: url("image30.jpg");
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: 0 35%;
+
+}.image2{
+    height: 100%;
+    width: 100%;
+    background-image: url("image20.jpg");
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: 0 35%;
+
+
+
+}.image3{
+    height:100%;
+    width: 100%;
+    background-image: url("image10.jpg");
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: 0 35%;
+
+
+
+}.image4{
+    height: 100%;
+    width: 100%;
+    background-image: url("image40.jpg");
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: 0 35%;
+
+
+
+}.image5{
+    height: 100%;
+    width: 100%;
+    background-image: url("image50.jpg");
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: 0 40%;
+
+
+
+}.image6{
+    height: 100%;
+    width: 100%;
+    background-image: url("image60.jpg");
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: 0 15%;
+
+}
